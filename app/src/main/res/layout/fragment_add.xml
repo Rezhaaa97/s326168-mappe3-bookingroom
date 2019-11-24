@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.AddFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:background="@drawable/oslometlogo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="462dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/add_reserv"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="260dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Reserver Rom"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/add_room"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/add_reserv"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Legg til flere Rom !"
+            android:textColor="@color/black" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
